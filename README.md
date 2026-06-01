@@ -1,38 +1,37 @@
-Pharmacy Management System (Python CLI)
+#Pharmacy Management System (Python CLI)
 A simple Pharmacy Management System built using Python that helps manage medicines, patients, and sales using a command-line interface.
 The system uses text files for storage and is divided into multiple modules for better organization and readability.
 
-📌 Features
-🧾 Medicine Management
+#📌 Features
+#🧾 Medicine Management
 Add new medicines (name, category, price, quantity, expiry) 
 View all medicines with ID, price, and quantity 
 Search medicines by name 
 Low stock alert (quantity < 5) 
 
 
-🧑‍⚕️ Patient Management
-Add patient details (name, age, phone) 
-View all patient records 
+# Patient Management
+#Add patient details (name, age, phone) 
+#View all patient records 
 
 
-💰 Sales System
+#💰 Sales System
 Sell medicines and calculate total bill 
 Automatically reduces stock after sale 
-Stores sales data with date in sales.txt 
+#Stores sales data with date in sales.txt 
 
 
-⚙️ Utility Functions
+#⚙️ Utility Functions
 Automatic file creation if missing 
 Pause between operations for better UX
 Clear console screen for cleaner interface 
 
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 Language: Python
 Interface: Command Line (CLI)
 Storage: Text files (.txt)
-Concepts Used:
-
+#Concepts Used:
 Modular Programming (multiple .py files)
 File Handling
 Exception Handling
@@ -40,7 +39,7 @@ Basic Data Processing
 
 
 
-📂 Project Structure
+#📂 Project Structure
 pharmacy-management-system/
 │
 ├── main.py          # Main menu & program execution
@@ -56,19 +55,9 @@ pharmacy-management-system/
 └── README.md
 
 
-🚀 How to Run
-
-Install Python:
-
-Shellpython --versionShow more lines
-
-Run the program:
-
-Shellpython main.pyShow more lines
-
-📊 Menu Options
+#📊 Menu Options
 When you run the program, you'll see:
-PHARMACY MANAGEMENT SYSTEM
+#PHARMACY MANAGEMENT SYSTEM
 
 1. Add Medicine
 2. View Medicines
@@ -80,7 +69,7 @@ PHARMACY MANAGEMENT SYSTEM
 8. Exit
 
 
-📦 Data Storage Format
+#📦 Data Storage Format
 Medicines (medicines.txt)
 ID   Name   Category   Price   Quantity   Expiry
 
@@ -90,14 +79,14 @@ ID,Name,Age,Phone
 Sales (sales.txt)
 MedicineName,Quantity,TotalPrice,Date
 
-⚠️ Known Limitations
+#⚠️ Known Limitations
 No database (uses plain text files)
 No GUI (CLI only)
 Limited validation of user input
 File formatting inconsistency (spaces vs commas)
 
 
-⚙️ Future Improvements
+#⚙️ Future Improvements
 Add graphical interface (Tkinter / PyQt)
 Use SQLite or MySQL instead of text files
 Add login/authentication system
