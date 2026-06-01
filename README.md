@@ -4,35 +4,30 @@ The system uses text files for storage and is divided into multiple modules for 
 
 📌 Features
 🧾 Medicine Management
-
-Add new medicines (name, category, price, quantity, expiry) [upesstd-my...epoint.com]
-View all medicines with ID, price, and quantity [upesstd-my...epoint.com]
-Search medicines by name [upesstd-my...epoint.com]
-Low stock alert (quantity < 5) [upesstd-my...epoint.com]
+Add new medicines (name, category, price, quantity, expiry) 
+View all medicines with ID, price, and quantity 
+Search medicines by name 
+Low stock alert (quantity < 5) 
 
 
 🧑‍⚕️ Patient Management
-
-Add patient details (name, age, phone) [upesstd-my...epoint.com]
-View all patient records [upesstd-my...epoint.com]
+Add patient details (name, age, phone) 
+View all patient records 
 
 
 💰 Sales System
-
-Sell medicines and calculate total bill [upesstd-my...epoint.com]
-Automatically reduces stock after sale [upesstd-my...epoint.com]
-Stores sales data with date in sales.txt [upesstd-my...epoint.com]
+Sell medicines and calculate total bill 
+Automatically reduces stock after sale 
+Stores sales data with date in sales.txt 
 
 
 ⚙️ Utility Functions
-
-Automatic file creation if missing [upesstd-my...epoint.com]
-Pause between operations for better UX [upesstd-my...epoint.com]
-Clear console screen for cleaner interface [upesstd-my...epoint.com]
+Automatic file creation if missing 
+Pause between operations for better UX
+Clear console screen for cleaner interface 
 
 
 🛠️ Tech Stack
-
 Language: Python
 Interface: Command Line (CLI)
 Storage: Text files (.txt)
@@ -42,7 +37,6 @@ Modular Programming (multiple .py files)
 File Handling
 Exception Handling
 Basic Data Processing
-
 
 
 
@@ -85,7 +79,6 @@ PHARMACY MANAGEMENT SYSTEM
 7. Sell Medicine
 8. Exit
 
- [upesstd-my...epoint.com]
 
 📦 Data Storage Format
 Medicines (medicines.txt)
@@ -94,11 +87,8 @@ ID   Name   Category   Price   Quantity   Expiry
 Patients (patients.txt)
 ID,Name,Age,Phone
 
- [upesstd-my...epoint.com]
 Sales (sales.txt)
 MedicineName,Quantity,TotalPrice,Date
-
- [upesstd-my...epoint.com]
 
 ⚠️ Known Limitations
 No database (uses plain text files)
